@@ -1,0 +1,38 @@
+.formBox {
+  height: 400px;
+  width: 360px;
+  background: #6b6b6b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.inputBox input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+  background: transform;
+  color: #000000;
+  font-weight: 600;
+  height: 2rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.3rem;
+  height: 2rem;
+  width: 5rem;
+  color: #fff;
+  background: #19e680;
+  cursor: pointer;
+}
